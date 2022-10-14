@@ -17,16 +17,17 @@
     <main class="cartao">
       
       <div class="minhas-informacoes">
-        <img src="https://via.placeholder.com/100" alt="foto de perfil">
+        <div class="icon"><img src="src/img/tanjiro-foto.jpg" alt="foto de perfil"></div>
 
-        <h1 class="nome">Murilo Silva</h1>
-        <h2 class="cargo">Desenvolvedor Front-end Junior</h2>
+          <h1 class="nome typing-animation-nome">Murilo Silva</h1>
+          <h2 class="cargo typing-animation-sub-titulo">Desenvolvedor Front-end Junior</h2>
+        </span>
         
       </div>
 
       <div class="conteudo">
         <ul class="abas">
-          <li class="aba selecionado">
+          <li class="aba selecionado" >
             <img src="src/img/sobre.gif" alt="icone sobre mim">
 
           </li>
@@ -42,7 +43,7 @@
             <div class="descricao">
                 <p>Oi!, Meu nome é Murilo, seja bem vindo(a)!</p>
 
-                <p>Desde meus 5 anos apaixonado por tecnologia por causa dos games, nunca dei muito valor mas no futuro vi que deveria investir, e me aprofundando descobri que tenho muita facilidade para aprender e hoje estudo  <span>HTML, CSS e JavaScript</span></p>
+                <p class="typing-animation-descricao">Desde meus 5 anos apaixonado por tecnologia por causa dos games, sempre tive curiosidade desde pequeno sobre programação, eu desviei desse caminho mas no futuro vi e sabia que deveria me jogar no mundo da programação, e me aprofundando descobri que tenho muita facilidade para aprender e hoje estudo  <span>HTML, CSS e JavaScript</span></p>
             </div>
           </div>
 
@@ -68,5 +69,14 @@
       </div>
 
     </main>
+
+    <script>
+      function clickMenu() {
+        if (itens.style.display == 'block') {
+          itens.style.display = 'none'
+        }
+        else itens.style.display = 'block'
+      }
+    </script>
   </body>
 </html>
