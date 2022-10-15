@@ -181,8 +181,8 @@ div.minhas-informacoes div::before {
   text-align: justify;
 }
 
-.informacao-abas .descricao span {
-  color: #02d08f;
+.informacoes-abas .descricao span {
+  color: rgba(255, 255, 0, 0.96);
 }
 
 
